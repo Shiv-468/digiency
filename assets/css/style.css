@@ -596,7 +596,7 @@ p {
 
     .h2-font {
         color: var(--Black, #373737);
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif !important;
         font-size: 39.063px !important;
         font-style: normal;
         font-weight: 600 !important;
