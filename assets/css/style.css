@@ -416,7 +416,8 @@ p {
     background: rgba(255, 83, 0, 0.75);
     padding: 63px 35px;
     position: absolute;
-    display: none !important;
+    opacity: 0;
+    transition: 400ms linear;
 }
 
 /* .nav-btn:hover{
@@ -439,8 +440,7 @@ p {
 }
 
 .red-block-1:hover .red-box {
-    display: block !important;
-}
+opacity: 1;}
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
