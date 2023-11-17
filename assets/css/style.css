@@ -234,7 +234,9 @@ p {
 .pt-18 {
     padding-top: 18px;
 }
-
+.pr-100{
+    padding-right: 100px;
+}
 .pl-25 {
     padding-left: 25px;
 }
