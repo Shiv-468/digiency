@@ -30,7 +30,6 @@ ul {
     margin-bottom: 0;
     padding-left: 0;
 }
-
 a {
     color: var(--Black, #373737);
 }
@@ -99,6 +98,9 @@ p {
     background: #FFF;
 }
 
+.pr-30{
+    padding-right: 30px;
+}
 .b-radius {
     border-radius: 5px;
 }
@@ -232,9 +234,7 @@ p {
     gap: 29px;
 }
 
-.ml-40 {
-    margin-left: 40px;
-}
+
 
 .pt-26 {
     padding-top: 26px;
@@ -404,7 +404,7 @@ p {
     border: 1px solid var(--Black, #373737);
     border-radius: 50px;
     top: 65%;
-    left: 5%;
+    left: 0%;
 }
 
 .next-btn {
@@ -413,7 +413,7 @@ p {
     border: 1px solid var(--Black, #373737);
     border-radius: 50px;
     top: 65%;
-    right: 3%;
+    right: 0%;
 }
 
 /* --------------------------hover----------------- */
@@ -423,10 +423,6 @@ p {
     position: absolute;
     display: none !important;
 }
-/* .nav-btn:hover{
-    color: #FF5300;
-    border: 1px solid #FF5300;
-} */
 
 .btn-2:hover {
     background: #FFF;
@@ -444,38 +440,7 @@ p {
 
 .red-block-1:hover .red-box {
     display: block !important;
-}
-
-.red-block-2:hover .red-box {
-    display: block !important;
-}
-
-.red-block-3:hover .red-box {
-    display: block !important;
-}
-
-.red-block-4:hover .red-box {
-    display: block !important;
-}
-
-.red-block-5:hover .red-box {
-    display: block !important;
-}
-
-.red-block-6:hover .red-box {
-    display: block !important;
-}
-
-.red-block-7:hover .red-box {
-    display: block !important;
-}
-
-.red-block-8:hover .red-box {
-    display: block !important;
-}
-
-.red-block-9:hover .red-box {
-    display: block !important;
+    transition: width 50% 50% !important;
 }
 
 .nav-pills .nav-link.active,
@@ -509,9 +474,19 @@ p {
     padding: 30px 0;
 }
 
-.slick-dots {
+/* .slick-dots {
     display: none !important;
-}
+} */
+.slick-track {
+    display: flex !important;
+  }
+  .slick-slide {
+    height: inherit !important;
+  }
+  .slick-slide > div {
+    display: flex;
+  }
+  
 
 #myBtn {
     display: none;
@@ -523,16 +498,12 @@ p {
     height: 50px;
     border: none;
     outline: none;
-    background-color: var(--Orange, #FF5300);
+    background-color: transparent;
+    border: 1px solid orangered;
     cursor: pointer;
     border-radius: 50px;
 }
-#myBtn:hover{
-    background: #FFF;
-}
-#myBtn:hover svg path {
-    fill: #FF5300 !important;
-}
+
 
 @media (max-width:992px) {
     label[for="menu-box"]>span {
@@ -550,8 +521,8 @@ p {
         justify-content: space-between;
         position: absolute;
         z-index: 3;
-        right: 12px;
-        top: 16px;
+        right: 20px;
+        top: 33px;
     }
 
     #menu-box:checked~ul.mobile_view {
@@ -559,9 +530,7 @@ p {
         ;
     }
 
-    .ml-40 {
-        margin-left: 0;
-    }
+   
 
     ul.mobile_view {
         background-color: #FFF;
@@ -581,6 +550,9 @@ p {
 @media (min-width:576px) {
     .pt-120 {
         padding-top: 120px;
+    }
+    .pr-100{
+        padding-right: 100px;
     }
 
     .pb-120 {

@@ -1,5 +1,5 @@
 $('.slick_slider').slick({
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 300,
     arrow:true,
@@ -10,24 +10,26 @@ $('.slick_slider').slick({
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 986,
+        breakpoint: 1220,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: true
         }
       },
       {
-        breakpoint: 985,
+        breakpoint: 993,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 768,
         settings: {
+          dots:true,
+          autoplay:true,
           slidesToShow: 1,
           slidesToScroll: 1
         }
