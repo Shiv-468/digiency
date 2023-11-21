@@ -177,18 +177,13 @@
                 <div class="left-line"></div>
             </div>
             <h3 class="text-center mt-15 h2-font">Our Recent Project</h3>
-            <div class="row">
-                <div class="list-btn mt-15">
-                    <nav class="nav nav-pills flex-column flex-sm-row">
-                        <a class="flex-sm-fill text-sm-center nav-link nav-li-f f-f-popins active" aria-current="page"
-                            href="#">All</a>
-                        <a class="flex-sm-fill text-sm-center nav-link nav-li-f f-f-popins" href="#">UX Design</a>
-                        <a class="flex-sm-fill text-sm-center nav-link nav-li-f f-f-popins" href="#">Web Design</a>
-                        <a class="flex-sm-fill text-sm-center nav-link nav-li-f f-f-popins" href="#">App Development</a>
-                        <a class="flex-sm-fill text-sm-center nav-link nav-li-f f-f-popins" href="#">Game Design</a>
-                        <a class="flex-sm-fill text-sm-center nav-link nav-li-f f-f-popins" href="#">Graphic Design</a>
-                    </nav>
-                </div>
+            <div class="d-flex justify-content-between overflow-x-scroll pb-4 pt-15 nav-tab">
+                <a href="" class="pd-15 nav-li-f bg-color-orange">All</a>
+                <a href="" class="pd-15 nav-li-f color-gray link-trang text-nowrap">UX Design</a>
+                <a href="" class="pd-15 nav-li-f color-gray link-trang text-nowrap">Web Design</a>
+                <a href="" class="pd-15 nav-li-f color-gray link-trang text-nowrap">App Development</a>
+                <a href="" class="pd-15 nav-li-f color-gray link-trang text-nowrap">Game Design</a>
+                <a href="" class="pd-15 nav-li-f color-gray link-trang text-nowrap">Graphic Design</a>
             </div>
             <div class="row m-left-right pb-120 pt-30">
                 <div class="col-12 col-md-6 col-xl-4 red-block-1 p-left-right grid_img">
@@ -717,18 +712,18 @@
                         quis risus egestas ipsum.</p>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3 mt-4 mt-sm-0">
-                    <h4 class="color-orange pb-20 box-1-h">Location</h4>
-                    <p class="color-w footer-para">3517 W. Gray St. Utica, Pennsylvania 57867</p>
+                    <h4 class="color-orange pb-20 box-1-h pt-2">Location</h4>
+                    <a href="https://www.google.com/maps" class="color-w footer-para">3517 W. Gray St. Utica, Pennsylvania 57867</a>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3 mt-4 mt-xl-0">
-                    <h4 class="color-orange pb-20 box-1-h">Call Us</h4>
+                    <h4 class="color-orange pb-20 box-1-h pt-2">Call Us</h4>
                     <ul>
                         <li><a href="" class="color-w footer-para">(252) 555-0126</a></li>
                         <li><a href="" class="color-w footer-para mt-10">info@youremai.com</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3 mt-4 mt-xl-0">
-                    <h4 class="color-orange pb-30 box-1-h">Follow Us</h4>
+                    <h4 class="color-orange pb-30 box-1-h pt-2">Follow Us</h4>
                     <div class="d-flex gap-15">
                         <a href="https://www.facebook.com/">
                             <div class="facebook d-flex align-items-center justify-content-center">
@@ -742,25 +737,30 @@
                             </div>
                         </a>
                         <div class="facebook d-flex align-items-center justify-content-center">
+                           <a href="https://www.instagram.com/">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none">
-                                <path
-                                    d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"
-                                    fill="#373737"
-                                    style="fill:#373737;fill:color(display-p3 0.2145 0.2145 0.2145);fill-opacity:1;" />
-                            </svg>
+                            fill="none">
+                            <path
+                                d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"
+                                fill="#373737"
+                                style="fill:#373737;fill:color(display-p3 0.2145 0.2145 0.2145);fill-opacity:1;" />
+                        </svg>
+                           </a>
                         </div>
                         <div class="facebook d-flex align-items-center justify-content-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            <a href="https://www.skype.com/en/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none">
                                 <path
                                     d="M13.3102 20.4C11.9879 20.6066 10.6355 20.498 9.36308 20.083C8.09069 19.6681 6.93425 18.9586 5.98791 18.0123C5.04156 17.0659 4.33205 15.9095 3.91713 14.6371C3.50221 13.3647 3.39361 12.0123 3.60016 10.69C3.07889 9.69851 2.88841 8.56629 3.05657 7.45882C3.22472 6.35135 3.74269 5.32669 4.53477 4.53461C5.32684 3.74254 6.3515 3.22457 7.45897 3.05641C8.56644 2.88826 9.69867 3.07874 10.6902 3.6C12.0125 3.39345 13.3648 3.50206 14.6372 3.91698C15.9096 4.3319 17.0661 5.04141 18.0124 5.98776C18.9588 6.9341 19.6683 8.09054 20.0832 9.36293C20.4981 10.6353 20.6067 11.9877 20.4002 13.31C20.9214 14.3015 21.1119 15.4337 20.9437 16.5412C20.7756 17.6487 20.2576 18.6733 19.4655 19.4654C18.6735 20.2575 17.6488 20.7754 16.5413 20.9436C15.4339 21.1117 14.3016 20.9213 13.3102 20.4ZM12.0522 17.156H12.0122C14.8842 17.156 16.3152 15.77 16.3152 13.913C16.3152 12.715 15.7642 11.442 13.5892 10.955L11.6062 10.515C10.8512 10.343 9.98416 10.115 9.98416 9.4C9.98416 8.685 10.6042 8.18701 11.7082 8.18701C13.9382 8.18701 13.7352 9.715 14.8392 9.715C15.4152 9.715 15.9322 9.373 15.9322 8.785C15.9322 7.415 13.7352 6.38501 11.8762 6.38501C9.85516 6.38501 7.70316 7.24401 7.70316 9.52901C7.70316 10.627 8.09716 11.799 10.2632 12.342L12.9522 13.013C13.7682 13.215 13.9702 13.672 13.9702 14.085C13.9702 14.772 13.2862 15.443 12.0522 15.443C9.63516 15.443 9.97416 13.586 8.67816 13.586C8.09816 13.586 7.67516 13.984 7.67516 14.557C7.67516 15.671 9.02716 17.155 12.0522 17.155V17.156Z"
                                     fill="#373737"
                                     style="fill:#373737;fill:color(display-p3 0.2145 0.2145 0.2145);fill-opacity:1;" />
                             </svg>
+                            </a>
                         </div>
                         <div class="facebook d-flex align-items-center justify-content-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            <a href="https://twitter.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none">
                                 <g clip-path="url(#clip0_2_7132)">
                                     <path
@@ -775,6 +775,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
+                            </a>
                         </div>
 
                     </div>
