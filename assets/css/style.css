@@ -261,6 +261,9 @@ p {
 .gap-15 {
     gap: 15px;
 }
+.pl-30{
+    padding-left: 30px;
+}
 
 .mb-15 {
     margin-bottom: 15px;
@@ -314,6 +317,9 @@ p {
 
 .gap-5px {
     gap: 5px;
+}
+.padding-lg-20{
+    padding: 20px;
 }
 
 /* ------------------------buttons-------------------- */
@@ -385,31 +391,22 @@ p {
     height: 60px;
     border-radius: 5px;
     background: var(--Orange, #FF5300);
-    border: 1px solid orangered;
+   border: 1px solid white;
 }
 
 .btn-3:hover {
     background: #FFF;
     color: #FF5300;
 }
-
 .prev-btn {
-    width: 50px;
-    height: 50px;
-    border: 1px solid var(--Black, #373737);
-    border-radius: 50px;
-    top: 65%;
-    left: 0%;
+  opacity: 0;
 }
 
 .next-btn {
-    width: 50px;
-    height: 50px;
-    border: 1px solid var(--Black, #373737);
-    border-radius: 50px;
-    top: 65%;
-    right: 0%;
+   opacity: 0;
 }
+
+
 
 /* --------------------------hover----------------- */
 .red-box {
@@ -419,12 +416,6 @@ p {
     opacity: 0;
     transition: 400ms linear;
 }
-
-/* .nav-btn:hover{
-    color: #FF5300;
-    border: 1px solid #FF5300;
-} */
-
 .btn-2:hover {
     background: #FFF;
     color: var(--Orange, #FF5300);
@@ -546,6 +537,7 @@ opacity: 1;}
     .pt-120 {
         padding-top: 120px;
     }
+   
 
     .pb-120 {
         padding-bottom: 120px;
@@ -606,6 +598,34 @@ opacity: 1;}
         border-right: 3px solid var(--Whit, #FFF);
         height: 134px;
         border-radius: 4px;
+    }
+    .prev-btn {
+        width: 50px;
+        height: 50px;
+        border: 1px solid var(--Black, #373737);
+        border-radius: 50px;
+        top: 69%;
+        left: -4%;
+        opacity: 1;
+    }
+    
+    .next-btn {
+        width: 50px;
+        height: 50px;
+        border: 1px solid var(--Black, #373737);
+        border-radius: 50px;
+        top: 69%;
+        right: -4%;
+        opacity: 1;
+    }
+   
+}
+@media (min-width:992px) {
+    .bg-sm-white{
+        background: white;;
+    }
+    .padding-lg-20{
+        padding: 0;
     }
 }
 
